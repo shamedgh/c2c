@@ -1,0 +1,33 @@
+
+
+### How to add new application:
+1. add name of bitcode to src/python/run.sh
+
+2. add cmd to build callgraphs (needs master and worker function names)
+        to src/python/build-app-graphs.sh
+
+2. add cmd to run to src/c++/llvm-pass/run-pass.sh
+
+3. add how to build app to src/c++/llvm-pass/build-app.sh
+
+4. add how to run app to src/c++/llvm-pass/run-app.sh
+
+5. add how to build-stats to src/c++/llvm-pass/run-stats-pass.sh
+
+6. add specification to app.to.properties.json
+
+7. add cmd to `build-app.sh` to
+        use instrumented binary as the pre-debloated binary
+
+8. add library files which program is dynamically linked with to binary
+        folder
+
+## Note to keep in mind:
+C2C will run on the bitcode of the application with the `wcheckfuncs` suffix.
+This is the bitcode of the application which has the solver functions linked into
+it.
+While temporal and piecewise will run on the bitcode of the application without
+any suffix.
+
+## How to create bitcodes with solver functions:
+$C2CHOME/src/c++/llvm-pass/instrumentation/instrument-all.sh ~/config-to-code/bitcodes/orig/ ~/config-to-code/src/c++/llvm-pass/instrumentation/checkCondition.bc ~/config-to-code/bitcodes/

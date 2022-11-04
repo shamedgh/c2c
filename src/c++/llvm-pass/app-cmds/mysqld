@@ -1,0 +1,7 @@
+opt -load ~/svf/svf.newest/SVF-2.2/Debug-build/lib/libSvf.so -load ./src/libc2c-lib.so.12 -c2c -enable-debugging -option-mapper-func-names create_new_option -option-mapper-func-field-index 0 -enable-acfg -acfg-path /tmp/mysqld.woptr.acfg -enable-instrument -transition-func server_components_initialized ../instrumentation/mysqld.wcheckfuncs.bc -o outputs/mysqld.winstrument.bc
+
+option-mapper-function:
+    - create_new_option (index: 0)
+    - 
+transition function:
+    server_components_initialized

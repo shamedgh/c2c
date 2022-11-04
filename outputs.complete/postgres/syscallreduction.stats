@@ -1,0 +1,2 @@
+Application;# Piecewise Master;# Piecewise Worker;# Temporal Master Syscalls;# Temporal Worker Syscalls;# C2C Master;# C2C Worker
+postgres;120;108;120;109;118;105

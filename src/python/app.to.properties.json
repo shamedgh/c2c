@@ -1,0 +1,174 @@
+{
+    "sec-eval-lib-output": "removedViaLibSpecialization.txt",
+    "sec-eval-temporal-output": "removedViaTemporalDebloating.txt",
+    "sec-eval-conditional-output": "removedViaConditionalDebloating.txt",
+    "apps": [
+        {
+            "postgres": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main",
+                    "worker": "InitPostmasterChild,ClosePostmasterPorts,MemoryContextAlloc,memcpy,MemoryContextSwitchTo,MemoryContextDelete,StartBackgroundWorker",
+                    "bininput": "postgres/",
+                    "output": "postgres.syscall.out"
+                },
+            "memcached": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main,worker_libevent",
+                    "worker": "worker_libevent",
+                    "bininput": "memcached/",
+                    "output": "memcached.syscall.out"
+                },
+            "tar": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main",
+                    "worker": "main",
+                    "bininput": "tar/",
+                    "output": "tar.syscall.out"
+                },
+            "smtpd": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main",
+                    "worker": "main",
+                    "bininput": "smtpd/",
+                    "output": "smtpd.syscall.out"
+                },
+            "httpd.drupal": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main,listener_thread",
+                    "worker": "child_main,listener_thread",
+                    "bininput": "httpd.drupal/",
+                    "output": "httpd.syscall.out"
+                },
+            "httpd.bitnami": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main,listener_thread",
+                    "worker": "child_main,listener_thread",
+                    "bininput": "httpd.bitnami/",
+                    "output": "httpd.syscall.out"
+                },
+            "redis": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main",
+                    "worker": "aeMain",
+                    "bininput": "redis/",
+                    "output": "redis.syscall.out"
+                },
+            "curl": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main",
+                    "worker": "main",
+                    "bininput": "curl/",
+                    "output": "curl.syscall.out"
+                },
+            "wget": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main",
+                    "worker": "main",
+                    "bininput": "wget/",
+                    "output": "wget.syscall.out"
+                },
+            "lighttpd": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main",
+                    "worker": "server_main_loop",
+                    "bininput": "lighttpd/",
+                    "output": "lighttpd.syscall.out"
+                },
+            "nginx.zendserver": 
+                {
+                    "enable": "true",
+                    "appname.suffix": ".instrumented",
+                    "cfg": {
+                            "svf" : "baseline/piecewise.cfg",
+                            "svftypefp" : "temporal/temporal.svf.type.fp.wglobal.cfg",
+                            "svftypeconditional.mod" : "svf.type.wall.dyn.conditionals.fp.wglobal.cfg",
+                            "svftypeconditional.bb" : "svf.type.wo.dyn.conditionals.fp.wglobal.cfg"
+                           },
+                    "master": "main,ngx_worker_process_cycle,ngx_single_process_cycle",
+                    "worker": "ngx_worker_process_cycle,ngx_single_process_cycle",
+                    "bininput": "nginx.zendserver/",
+                    "output": "nginx.syscall.out"
+                }
+        }
+    ]
+}

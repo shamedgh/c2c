@@ -1,0 +1,58 @@
+{
+    "nginx": 
+        {
+            "enable": "true",
+            "transition-function": "ngx_start_worker_processes",
+            "config-type-file": "/home/hamed/webserver-asr/config-driven-programs/config.based.structs/nginx.config.types",
+            "src-llvm-dir": "/home/hamed/webserver-asr/config-driven-programs/nginx-1.17.1.llvm10",
+            "src-working-dir": "/home/hamed/webserver-asr/config-driven-programs/module-mapping-work-dir/nginx-1.17.1",
+            "configure-cmd": "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" ",
+            "configure-baseline-cmd": "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" ",
+            "configure-cmds": [
+                "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" --with-pcre-jit --without-http_geo_module --without-http_charset_module --without-http_gzip_module --without-http_ssi_module --without-http_userid_module --without-http_access_module --without-http_auth_basic_module --without-http_mirror_module --without-http_autoindex_module --without-http_map_module --without-http_split_clients_module --without-http_referer_module --without-http_rewrite_module --without-http_proxy_module --without-http_fastcgi_module --without-http_uwsgi_module --without-http_scgi_module --without-http_grpc_module --without-http_memcached_module --without-http_limit_conn_module --without-http_limit_req_module --without-http_empty_gif_module --without-http_browser_module --without-http_upstream_hash_module --without-http_upstream_ip_hash_module --without-http_upstream_least_conn_module --without-http_upstream_keepalive_module --without-http_upstream_zone_module --without-mail_pop3_module --without-mail_imap_module --without-mail_smtp_module --without-stream_limit_conn_module --without-stream_access_module --without-stream_geo_module --without-stream_map_module --without-stream_split_clients_module --without-stream_return_module --without-stream_upstream_hash_module --without-stream_upstream_least_conn_module --without-stream_upstream_zone_module",
+                "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" --with-http_ssl_module",
+                "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" --with-http_ssl_module --with-stream --with-mail",
+                "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" --with-pcre-jit --with-http_ssl_module --with-http_stub_status_module --with-http_realip_module --with-http_auth_request_module --with-http_v2_module --with-http_dav_module --with-http_slice_module --with-threads --with-http_addition_module --with-http_geoip_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_image_filter_module --with-http_sub_module --with-http_xslt_module --with-stream --with-stream_ssl_module --with-mail --with-mail_ssl_module",
+                "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" --with-http_ssl_module --with-http_v2_module --with-http_realip_module --with-http_addition_module --with-http_xslt_module --with-http_image_filter_module --with-http_geoip_module --with-http_sub_module --with-http_dav_module --with-http_flv_module --with-http_mp4_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_auth_request_module --with-http_random_index_module --with-http_secure_link_module --with-http_degradation_module --with-http_slice_module --with-http_stub_status_module --with-http_perl_module --with-mail --with-mail_ssl_module --with-stream --with-stream_ssl_module --with-stream_realip_module --with-stream_geoip_module --with-stream_ssl_preread_module --with-pcre-jit"
+            ],
+            "configure-cmds.bak": [    "CC=clang LD=/usr/bin/ld CFLAGS=\"-flto -O0\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure --with-ld-opt=\"-flto -Wl,-plugin-opt=save-temps\" "],
+            "configure-help-cmd": "./configure --help",
+            "configure-module-prefix": "--with",
+            "configure-module-suffix": "",
+            "binary-ends-with": "objs/nginx",
+            "make-cmd": "make -j4",
+            "dir-to-obj": "nginx.dir.to.obj.map",
+            "dir-split": "",
+            "dir-count-per-line": 1,
+            "configure-opts": "nginx.config.opts",
+            "skip-modules": ["--with-cpp_test_module", "--with-zlib-asm", "--with-pcre-opt", "--with-cpu-opt", "--with-cc-opt", "--with-ld-opt", "--with-zlib-opt", "--with-openssl-opt"],
+            "config-files": [
+                    "/usr/local/nginx/conf/nginx.conf",
+                    "/usr/local/nginx/conf/nginx.wo.modules.conf",
+                    "/usr/local/nginx/conf/nginx.wo.modules.w.geoip.conf",
+                    "/home/hamed/config-driven-specialization/sample-configs/nginx.php-zendserver/nginx/nginx.all.in.one.conf"
+                ]
+        },
+    "httpd": 
+        {
+            "enable": "false",
+            "llvm-pass-cmd": "/home/hamed/svf/svf.new.improved/SVF/Debug-Build/bin/spa -config-to-objfile {} -ro2co-config-name-types struct.command_struct -ro2co-config-name-index 0 -ro2co-func-extra-config-name ap_register_input_filter,ap_register_output_filter -ro2co-func-extra-config-arg 0 ",
+            "llvm-pass-cmd.bak": "/home/hamed/svf/svf.new.improved/llvm-10.0.0.obj/bin/opt -load /home/hamed/svf/svf.new.improved/SVF/Debug-Build/lib/libSvf.so -spa -config-to-objfile {} -ro2co-config-name-types struct.ngx_command_s -ro2co-config-name-index 0 -o tmp",
+            "src-llvm-dir": "/home/hamed/webserver-asr/config-driven-programs/httpd-2.4.39.llvm10",
+            "src-working-dir": "/home/hamed/webserver-asr/config-driven-programs/module-mapping-work-dir/httpd-2.4.39",
+            "configure-cmd": "./configure --with-included-apr --enable-modules=none --enable-slotmem-shm=static ",
+            "configure-baseline-cmd": "./configure --with-included-apr --enable-modules=none --enable-slotmem-shm=static",
+            "configure-help-cmd": "/home/hamed/webserver-asr/config-driven-programs/httpd-2.4.39.llvm10/httpd -M -f /home/hamed/config-driven-specialization/sample-configs/httpd.minimal.conf",
+            "configure-module-prefix": "",
+            "configure-module-suffix": "_module",
+            "convert-module-name": "echo {} | sed 's/^/--enable-/g' | sed 's/_module/=static/g' | sed 's/_/-/g'",
+            "make-cmd": "make -j4",
+            "dir-to-obj": "httpd.dir.to.obj.map",
+            "dir-split": ";",
+            "dir-count-per-line": 2,
+            "configure-opts": "httpd.config.opts",
+            "config-files": [
+                    "/home/hamed/config-driven-specialization/sample-configs/apache.wordpress/apache2/apache2.all.in.one.conf"
+                ]
+        }
+}

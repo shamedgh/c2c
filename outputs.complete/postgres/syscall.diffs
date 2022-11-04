@@ -1,0 +1,4 @@
+temporalWorker-conditionalBbWorker: 
+{'fadvise64', 'setsockopt', 'bind', 'getsockopt'}
+piecewiseMaster-conditionalBbWorker: 
+{'dup', 'fadvise64', 'accept', 'getegid', 'utime', 'geteuid', 'dup2', 'listen', 'getuid', 'getppid', 'setsockopt', 'bind', 'getsockopt', 'mremap', 'chown'}

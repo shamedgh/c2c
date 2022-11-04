@@ -1,0 +1,73 @@
+{
+    "nginx": 
+        {
+            "enable": "true",
+            "configure-cmd": "./configure ",
+            "configure-baseline-cmd": "./configure ",
+            "configure-help-cmd": "./configure --help",
+            "configure-module-prefix": "--with",
+            "make-cmd": "make -j4",
+            "dir-to-obj": "nginx.dir.to.obj.map",
+            "dir-split": "",
+            "dir-count-per-line": 1,
+            "configure-opts": "nginx.config.opts",
+            "config-files": {
+                    "zendserver": "nginx.zendserver.conf"
+                }
+        },
+    "smtpd": 
+        {
+            "enable": "true",
+            "configure-cmd": "./bootstrap; RANLIB=llvm-ranlib CC=clang CFLAGS=\"-flto -O0 -fPIC -fPIE\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" ./configure ",
+            "configure-baseline-cmd": "./configure ",
+            "configure-help-cmd": "./configure --help",
+            "configure-module-prefix": "--with-",
+            "convert-module-name": "echo {} | sed 's/=.*//g'",
+            "make-cmd": "make -j4",
+            "clean-cmd": "make clean",
+            "dir-to-obj": "smtpd.dir.to.obj.map",
+            "dir-split": "",
+            "dir-count-per-line": 1,
+            "configure-opts": "smtpd.config.opts",
+            "config-files": {
+                    "default": "smtpd.conf"
+                }
+        },
+    "lighttpd": 
+        {
+            "enable": "true",
+            "configure-cmd": "CFLAGS=\"-flto -O0 -fPIC -fPIE\" LDFLAGS=\"-flto -Wl,-plugin-opt=save-temps\" scons CC=/home/SVF-tools/SVF-2.2/llvm-12.0.0.obj/bin/clang -j 4 build_static=1 build_dynamic=0 ",
+            "configure-baseline-cmd": "scons -j 4 build_static=1 build_dynamic=0 ",
+            "configure-help-cmd": "scons --help 2>&1",
+            "configure-module-prefix": "with_",
+            "convert-module-name": "echo {} | sed 's/:.*/=1/g'",
+            "make-cmd": "",
+            "clean-cmd": "scons --clean; rm -fR sconsbuild",
+            "dir-to-obj": "lighttpd.dir.to.obj.map",
+            "dir-split": "",
+            "dir-count-per-line": 1,
+            "configure-opts": "lighttpd.config.opts",
+            "config-files": {
+                    "default": "lighttpd.default.conf"
+                }
+        },
+    "httpd": 
+        {
+            "enable": "true",
+            "configure-cmd": "./configure --with-included-apr --enable-modules=none --enable-slotmem-shm=static ",
+            "configure-baseline-cmd": "./configure --with-included-apr --enable-modules=none --enable-slotmem-shm=static",
+            "configure-help-cmd": "$APPSRCFOLDER/httpd -M -f $CONFIGPATH/httpd.minimal.conf",
+            "configure-module-prefix": "",
+            "configure-module-suffix": "_module",
+            "convert-module-name": "echo {} | sed 's/^/--enable-/g' | sed 's/_module/=static/g' | sed 's/_/-/g'",
+            "make-cmd": "make -j4",
+            "dir-to-obj": "httpd.dir.to.obj.map",
+            "dir-split": ";",
+            "dir-count-per-line": 2,
+            "configure-opts": "httpd.config.opts",
+            "config-files": {
+                    "drupal": "httpd.drupal.conf",
+                    "bitnami": "httpd.bitnami.conf"
+            }
+        }
+}

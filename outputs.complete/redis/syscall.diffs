@@ -1,0 +1,4 @@
+temporalWorker-conditionalBbWorker: 
+{'recvfrom', 'sendto'}
+piecewiseMaster-conditionalBbWorker: 
+{'recvfrom', 'epoll_create', 'flock', 'chmod', 'dup2', 'prctl', 'umask', 'sendto', 'setrlimit', 'setsid'}

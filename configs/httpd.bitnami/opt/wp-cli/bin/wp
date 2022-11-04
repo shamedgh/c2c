@@ -1,0 +1,7 @@
+#!/bin/bash
+export WP_CLI_CONFIG_PATH="/opt/bitnami/wp-cli/conf/wp-cli.yml"
+export WP_CLI_PHP_USED="/opt/bitnami/php/bin/php"
+
+command -v less > /dev/null || export PAGER=cat
+
+exec "/opt/bitnami/php/bin/php" "/opt/bitnami/wp-cli/bin/wp-cli.phar" "$@"

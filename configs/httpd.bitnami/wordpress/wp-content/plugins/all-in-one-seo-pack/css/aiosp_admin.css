@@ -1,0 +1,555 @@
+#aioseop_settings_header #message {
+    padding: 5px 0px 5px 50px;
+    background-image: url(../images/update32.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    font-size: 14px;
+    min-height: 32px;
+    clear: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and ( min--moz-device-pixel-ratio: 1.5),
+only screen and ( -o-min-device-pixel-ratio: 3/2),
+only screen and ( min-device-pixel-ratio: 1.5),
+only screen and ( min-resolution: 1.5dppx) {
+    #aioseop_settings_header #message {
+        background-image: url(../images/update64.png) !important;
+        -webkit-background-size: 32px 32px !important;
+        -moz-background-size: 32px 32px !important;
+        background-size: 32px 32px !important;
+    }
+}
+
+.proupgrade a {
+    font-weight: 900;
+    color: #d54e21;
+    font-size: 105%;
+}
+
+.proupgrade a:hover {
+    font-weight: 900;
+    color: #ca3909;
+    font-size: 105%;
+}
+
+li#wp-admin-bar-aioseop-pro-upgrade a.ab-item {
+    font-weight: 900;
+    color: #d54e21 !important;
+    font-size: 110%;
+}
+
+.aioseop-metabox-pro-cta {
+    font-weight: 800;
+    color: #9a1313 !important;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.aioseop-metabox-pro-cta:hover {
+    color: #ca1111 !important;
+    box-shadow: none;
+}
+
+.upgrade_menu_link {
+    font-weight: 900;
+    color: #d54e21;
+    font-size: 105%;
+}
+
+label[for=aioseop_edit_profile_header] {
+    font-size: 1.3em;
+}
+
+#aioseop_edit_profile_header {
+    display: none;
+}
+
+.ui-tooltip.ui-widget.ui-corner-all.ui-widget-content.aioseop-ui-tooltip {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-shadow: 0px 1px 6px -2px #0073AA;
+    box-shadow: 0px 1px 6px -2px #0073AA;
+    border: 0px;
+    border-radius: 0px;
+    background: #FEFEFE;
+}
+
+.ui-tooltip.ui-widget.ui-corner-all.ui-widget-content.aioseop-ui-tooltip a {
+    color: #0073AA;
+    text-decoration: none;
+}
+
+.ui-tooltip.ui-widget.ui-corner-all.ui-widget-content.aioseop-ui-tooltip dt {
+    font-weight: bold;
+}
+
+
+/** --- Product Education --- **/
+
+
+/** License box **/
+
+.license-box {
+    max-width: 800px;
+}
+
+.license-box p:first-of-type {
+    margin-top: 0;
+}
+
+.license-box a {
+    font-weight: bold;
+}
+
+.license-box p:last-of-type {
+    font-style: italic;
+}
+
+
+/** Notice bar **/
+
+#aioseop-notice-bar {
+    background-color: #DDDDDD;
+    border-top: 3px solid #007cba;
+    color: #777777;
+    text-align: center;
+    position: relative;
+    padding: 7px;
+    margin-left: -20px;
+    margin-bottom: -4px;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+#aioseop-notice-bar a {
+    color: #007cba;
+}
+
+#aioseop-notice-bar a:hover {
+    color: #00a0d2;
+}
+
+#aioseop-notice-bar .dismiss {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 5px;
+    margin-top: 1px;
+    background: 0 0;
+    color: #72777c;
+    cursor: pointer;
+}
+
+#aioseop-notice-bar .dismiss:before {
+    background: 0 0;
+    color: #72777c;
+    content: "\f335";
+    display: block;
+    font: normal 20px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#aioseop-notice-bar.out {
+    opacity: .5;
+    max-height: 0;
+}
+
+
+/** Video sitemap upsell **/
+
+#aioseop-video-sitemap-upsell {
+    padding: 25px 20px;
+    margin: 10px 0 0 0;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #dadada;
+}
+
+#aioseop-video-sitemap-upsell h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#aioseop-video-sitemap-upsell p {
+    font-size: rem;
+}
+
+#aioseop-video-sitemap-upsell .dismiss {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #666;
+    font-size: 1rem;
+}
+
+#aioseop-video-sitemap-upsell .dismiss:hover {
+    cursor: pointer;
+    color: rgb(72, 70, 70);
+}
+
+.aioseop-rating-star {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: orange;
+}
+
+
+/** Taxonomies upsell **/
+
+.aioseop-preview-wrapper {
+    clear: both;
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+.aioseop-upsell-blurred {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.aioseop-taxonomies-upsell-modal {
+    text-align: center;
+    width: 750px;
+    box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 25px;
+    z-index: 100;
+    background-color: white;
+}
+
+@media (max-width: 1000px) {
+    body .aioseop-preview-wrapper {
+        display: none;
+    }
+}
+
+.aioseop-taxonomies-upsell-modal *,
+.aioseop-taxonomies-upsell-modal *::before,
+.aioseop-taxonomies-upsell-modal *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.aioseop-taxonomies-upsell-modal h2 {
+    font-size: 20px;
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+
+.aioseop-taxonomies-upsell-modal p {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.aioseop-taxonomies-upsell-modal-content {
+    background-color: #fff;
+    border-radius: 3px 3px 0 0;
+    padding: 40px;
+    height: 350px;
+}
+
+.aioseop-taxonomies-upsell-modal ul {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0 0 0 30px;
+    text-align: left;
+}
+
+.aioseop-taxonomies-upsell-modal li {
+    color: #666;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+.aioseop-taxonomies-upsell-modal li .fa {
+    color: #2a9b39;
+    margin: 0 8px 0 0;
+}
+
+.aioseop-taxonomies-upsell-modal-button {
+    border-radius: 0 0 3px 3px;
+    padding: 30px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.aioseop-taxonomies-upsell-modal-button a:first-of-type {
+    font-weight: 500;
+}
+
+.aioseop-modal-checkmark {
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(15, 156, 15);
+    font-size: 1.8rem;
+    line-height: 0.5;
+}
+
+
+/** Sidebar **/
+
+.button.button-primary.button-hero.button-pro-cta {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+/** Other **/
+
+.aioseop-upsell-discount-amount {
+    color: green;
+    font-weight: bold;
+}
+
+.aioseop-sitemap-prio-upsell {
+    position: absolute;
+    margin: 30px 0 0 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0073AA !important;
+}
+
+#aiosp_feature_manager_default_metabox a.feature-manager-cta-button {
+    float: right;
+    margin: 0 10px 10px 0;
+    background: #d54e21;
+    border-color: #aa3e1a;
+    -webkit-box-shadow: 0 1px 0 #aa3e1a;
+    box-shadow: 0 1px 0 #aa3e1a;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #d54e21, 1px 0 1px #d54e21, 0 1px 1px #d54e21, -1px 0 1px #d54e21;
+}
+
+
+/* Image SEO - Media Library */
+
+.aioseop-image-attribute {
+    height: 100px;
+}
+
+.aioseop-media-lib-dashicon:hover {
+    cursor: help;
+    color: #00a0d2;
+}
+
+.aioseop-media-lib-tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.aioseop-media-lib-tooltip .aioseop-media-lib-tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    border-radius: 6px;
+    padding: 10px;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -70px;
+    color: #fff;
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.aioseop-media-lib-tooltip .aioseop-media-lib-tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.aioseop-media-lib-tooltip:hover .aioseop-media-lib-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* QUICKEDIT */
+
+.aioseop-quickedit-pencil {
+    margin-right: 5px;
+    color: #72777c;
+}
+
+.aioseop-quickedit-pencil:hover {
+    color: #0073aa;
+    outline: 0;
+}
+
+.aioseop-quickedit-input {
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 13px;
+    width: 100%;
+    z-index: 1;
+}
+
+.aioseop-quickedit-input-save {
+    margin-right: 5px;
+    color: rgb(22, 204, 22);
+}
+
+.aioseop-quickedit-input-cancel {
+    color: red;
+}
+
+.aioseop-quickedit-pencil:focus,
+.aioseop-quickedit-input-save:focus,
+.aioseop-quickedit-input-cancel:focus {
+    box-shadow: none;
+}
+
+.aioseop-quickedit-spinner {
+    float: left;
+    width: 20px;
+    margin-right: 5px;
+}
+
+#aiosp_sitemap_link_wrapper,
+#aiosp_video_sitemap_link_wrapper {
+    margin-left: 10px;
+}
+
+#aiosp_sitemap_link_wrapper p:first-of-type,
+#aiosp_video_sitemap_link_wrapper p:first-of-type {
+    margin-top: 0px;
+}
+
+#aiosp_sitemap_link_wrapper ul,
+#aiosp_video_sitemap_link_wrapper ul {
+    margin-left: 40px;
+    list-style: disc;
+}
+
+#aiosp_sitemap_link_wrapper ul li a,
+#aiosp_video_sitemap_link_wrapper ul li a {
+    text-decoration: none;
+}
+
+.aioseop-msg-small {
+    font-size: 0.8rem;
+}
+
+#aiosp_sitemap_status_metabox .aioseop-news-sitemap-upsell {
+    margin: 10px 0;
+}
+
+.aioseop-news-sitemap-upsell a {
+    font-weight: bold;
+}
+
+
+/* Fixes the default CSS for the Classic Editor link modal. */
+
+body #most-recent-results {
+	margin-top: 0 !important;
+}
+body #wp-link .query-results {
+	position: initial;
+}
+body #wp-link .query-results ul {
+	max-height: 200px;
+	overflow: scroll;
+}
+body #wp-link-wrap #link-selector {
+	overflow: auto;
+}
+
+@media (max-width: 782px) {
+    body #wp-link-wrap {
+        top: 30%;
+    }
+    body #wp-link .link-target label {
+        line-height: 30px;
+    }
+}
+
+#wpadminbar .aioseo-menu-notification-counter {
+    display: inline-block !important;
+    vertical-align: top !important;
+    box-sizing: border-box !important;
+    margin: 7px 0 0 2px !important;
+    padding: 0 5px !important;
+    min-width: 18px !important;
+    height: 18px !important;
+    border-radius: 9px !important;
+    background-color: #ca4a1f !important;
+    color: #fff !important;
+    font-size: 11px !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+  }
+  
+  #wpadminbar .aioseo-menu-notification-counter span {
+    line-height: 1 !important;
+    font-size: 11px !important;
+  }
+  
+  #wpadminbar .aioseo-menu-notification-indicator {
+    float: right;
+    margin: 10px 0 0;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background-color: #ca4a1f !important;
+    line-height: 1.6 !important;
+    animation: aioseo-menu-notification-indicator-pulse 1.5s infinite !important;
+  }
+
+  #wpbody .All_in_One_SEO_Pack_Importer_Exporter .aioseop_option_div ul {
+      margin: 20px 30px;
+      list-style: disc;
+  }
+
+  #aiosp_rss_content_metabox .inside .aiosp_settings .aioseop-rss-content-description {
+      margin: 20px;
+  }
+
+  #aiosp_rss_content_metabox .inside .aiosp_settings .aioseop-rss-content-tags {
+      margin: 10px 20px
+  }
+
+  #wpbody .aioseop_options_wrapper .postbox .handle-order-higher,
+  #wpbody .aioseop_options_wrapper .postbox .handle-order-lower {
+    display: none;
+  }

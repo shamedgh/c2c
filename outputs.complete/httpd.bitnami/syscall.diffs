@@ -1,0 +1,4 @@
+temporalWorker-conditionalBbWorker: 
+{'mremap', 'dup2', 'dup3', 'setsid', 'execve', 'setrlimit'}
+piecewiseMaster-conditionalBbWorker: 
+{'dup3', 'ftruncate', 'semget', 'setsid', 'execve', 'setrlimit', 'getpgid', 'mremap', 'chown', 'dup2', 'semtimedop', 'getpgrp', 'fchown', 'umask'}

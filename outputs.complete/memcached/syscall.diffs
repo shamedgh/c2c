@@ -1,0 +1,4 @@
+temporalWorker-conditionalBbWorker: 
+{'nanosleep'}
+piecewiseMaster-conditionalBbWorker: 
+{'ftruncate', 'rename', 'msync', 'setsid', 'setgroups', 'unlink', 'mremap', 'eventfd2', 'chdir', 'setrlimit', 'dup2', 'pread64', 'preadv', 'setgid', 'nanosleep', 'setuid', 'pwrite64', 'umask', 'mlockall'}

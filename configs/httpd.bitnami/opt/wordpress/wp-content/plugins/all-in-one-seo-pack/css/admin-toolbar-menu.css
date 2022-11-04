@@ -1,0 +1,46 @@
+#wp-admin-bar-aioseop-pro-upgrade a {
+    font-style: italic;
+    color: orange !important;
+}
+
+.aioseop-admin-bar-logo {
+    float: left;
+    top: 3px;
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-size: 20px;
+    color: #a0a5aa;
+    content: url("data:image/svg+xml,%3Csvg width='20px' height='20px' viewBox='0 0 516 516' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' fill='%23a0a5aa'%3E%3Cpath d='M313.09629 56.767c15.572 4.282 30.418 10.326 44.308 17.903l49.035-35.771 68.022 68.023-35.24 48.172c7.827 13.776 14.13 28.529 18.681 44.029l57.95 9.064v96.198l-56.968 8.832c-4.446 16.178-10.792 31.571-18.785 45.925l36.485 49.874-68.022 68.023-50.057-36.517c-13.54 7.493-28 13.523-43.166 17.878l-8.92 57.538h-96.199l-8.949-57.218c-15.633-4.394-30.525-10.565-44.443-18.282l-47.249 34.468-68.023-68.022 34.305-46.894c-7.89-14.015-14.206-29.031-18.71-44.81l-57.151-8.86v-96.199l56.983-8.912c4.331-15.347 10.377-29.979 17.916-43.674l-35.466-48.48 68.023-68.023 48.061 35.061c13.641-7.693 28.234-13.895 43.554-18.384L208.09729 0h96.198l8.801 56.767zm-38.657 342.655c70.789-8.277 125.797-68.527 125.797-141.523 0-78.644-63.849-142.493-142.493-142.493s-142.493 63.849-142.493 142.493c0 73.293 55.457 133.737 126.663 141.621v-44.549c-36.12-7.515-63.294-39.554-63.294-77.89v-48.998h33.367v-50.298c0-5.447 4.423-9.87 9.871-9.87 5.447 0 9.87 4.423 9.87 9.87v50.298h52.726v-50.298c0-5.447 4.423-9.87 9.87-9.87 5.448 0 9.87 4.423 9.87 9.87v50.298h33.54v48.998c0 38.336-27.174 70.375-63.294 77.89v44.451z'/%3E%3C/svg%3E%0A");
+}
+
+#wpadminbar .aioseo-menu-notification-counter {
+    display: inline-block !important;
+    vertical-align: top !important;
+    box-sizing: border-box !important;
+    margin: 7px 0 0 2px !important;
+    padding: 0 5px !important;
+    min-width: 18px !important;
+    height: 18px !important;
+    border-radius: 9px !important;
+    background-color: #ca4a1f !important;
+    color: #fff !important;
+    font-size: 11px !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+  }
+  
+  #wpadminbar .aioseo-menu-notification-counter span {
+    line-height: 1 !important;
+    font-size: 11px !important;
+  }
+  
+  #wpadminbar .aioseo-menu-notification-indicator {
+    float: right;
+    margin: 10px 0 0;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background-color: #ca4a1f !important;
+    line-height: 1.6 !important;
+    animation: aioseo-menu-notification-indicator-pulse 1.5s infinite !important;
+  }

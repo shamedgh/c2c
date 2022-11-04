@@ -1,0 +1,163 @@
+#aioseop-flyout {
+    position: fixed;
+    z-index: 99999;
+    transition: all 0.2s ease-in-out;
+    right: 40px;
+    bottom: 40px;
+    opacity: 1;
+  }
+  
+  @media (max-width: 959px) {
+    #aioseop-flyout {
+      display: none;
+    }
+  }
+  
+  #aioseop-flyout .aioseop-flyout-head {
+    display: block;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-head img {
+    width: 54px;
+    height: 54px;
+    padding: 5px;
+    display: block;
+    border: 2px solid rgb(13, 44, 129);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-head:hover img {
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.25); 
+  }
+  
+  #aioseop-flyout .aioseop-flyout-head .aioseop-flyout-label {
+    opacity: 0;
+    transform: translateY(-50%) scale(0);
+    margin-right: -50px;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-head:hover .aioseop-flyout-label {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+    margin-right: 0;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-head:focus {
+    box-shadow: none;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-head .aioseop-flyout-label {
+    right: calc(100% + 15px);
+  }
+  
+  #aioseop-flyout .aioseop-flyout-label {
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: calc(100% + 25px);
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    color: #fff;
+    background: #5F5E5E 0 0 no-repeat padding-box;
+    font-size: 12px;
+    white-space: nowrap;
+    padding: 5px 10px;
+    height: auto !important;
+    line-height: initial;
+    transition: all 0.2s ease-out;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item {
+    position: absolute;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0);
+    border-radius: 50%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    background: #036AAB 0 0 no-repeat padding-box;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item img {
+      width: 20px;
+      height: 20px;
+      position: relative;
+      top: 22%;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item.aioseop-flyout-item-0 {
+    bottom: 75px;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item.aioseop-flyout-item-1 {
+    bottom: 130px;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item.aioseop-flyout-item-2 {
+    bottom: 185px;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item.aioseop-flyout-item-3 {
+    bottom: 240px;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item.aioseop-flyout-item-4 {
+    bottom: 295px;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item:hover {
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.25);
+    background: #0096F0 0 0 no-repeat padding-box;
+  }
+  
+  #aioseop-flyout .aioseop-flyout-item:hover .aioseop-flyout-label {
+    background: #444444 0 0 no-repeat padding-box;
+  }
+  
+  #aioseop-flyout.opened .aioseop-flyout-item {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+  
+  #aioseop-flyout.opened .aioseop-flyout-head .aioseop-flyout-label {
+    display: none;
+  }
+  
+  #aioseop-flyout.opened .aioseop-flyout-item-0 {
+    transition: transform 0.2s 0ms, background-color 0.2s;
+  }
+  
+  #aioseop-flyout.opened .aioseop-flyout-item-1 {
+    transition: transform 0.2s 35ms, background-color 0.2s;
+  }
+  
+  #aioseop-flyout.opened .aioseop-flyout-item-2 {
+    transition: transform 0.2s 70ms, background-color 0.2s;
+  }
+  
+  #aioseop-flyout.opened .aioseop-flyout-item-3 {
+    transition: transform 0.2s 105ms, background-color 0.2s;
+  }
+  
+  #aioseop-flyout.opened .aioseop-flyout-item-4 {
+    transition: transform 0.2s 140ms, background-color 0.2s;
+  }
+  
+  #aioseop-flyout.out {
+    opacity: 0;
+    visibility: hidden;
+  } 

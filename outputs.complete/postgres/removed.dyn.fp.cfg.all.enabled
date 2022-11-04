@@ -1,0 +1,8 @@
+pg_xml_init->xmlPgEntityLoader
+default_openssl_tls_init->ssl_external_passwd_cb
+default_openssl_tls_init->dummy_ssl_passwd_cb
+CheckPAMAuth->pam_passwd_conv_proc
+be_tls_init->verify_cb
+be_tls_open_server->info_cb
+my_BIO_s_socket->my_sock_write
+my_BIO_s_socket->my_sock_read

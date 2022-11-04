@@ -1,0 +1,136 @@
+totalBrCount: 6993
+totalBrEdgeCount: 15034
+configBrCount: 778
+configBrEdgeCount: 1562
+Global-Heap: G
+wHeapInitEdgeCount: 0
+non-det-cmp-configBrEdgeCount: 64
+indCallEdgeBrEdgeCount: 0
+Config Variable -> Cond Branch distribution:
+brCount:configVar 1:55
+brCount:configVar 2:30
+brCount:configVar 3:17
+brCount:configVar 4:12
+brCount:configVar 5:4
+brCount:configVar 6:9
+brCount:configVar 7:3
+brCount:configVar 8:1
+brCount:configVar 9:3
+brCount:configVar 10:1
+brCount:configVar 11:2
+brCount:configVar 12:1
+brCount:configVar 15:2
+brCount:configVar 16:1
+brCount:configVar 18:1
+brCount:configVar 23:1
+brCount:configVar 25:1
+brCount:configVar 38:1
+brCount:configVar 234:1
+Switch-Case count
+main|34-S-T:10
+main|49-S-T:6
+main|152-S-T:3
+init_switches|8-S-T:3
+run_wgetrc|4-S-T:5
+run_command|0-S-T:2
+c_tolower|0-S-T:27
+logprintf|2-S-T:6
+convert_links|32-S-T:6
+logputs|5-S-T:6
+local_quote_string|7-S-T:5
+html_quote_string|18-S-T:6
+c_isalnum|0-S-T:63
+find_fragment|2-S-T:3
+downloaded_mode_to_ptr|0-S-T:5
+find_comment_end|2-S-T:3
+find_comment_end|12-S-T:3
+find_comment_end|18-S-T:3
+advance_declaration|8-S-T:14
+advance_declaration|14-S-T:10
+advance_declaration|48-S-T:2
+advance_declaration|52-S-T:2
+advance_declaration|57-S-T:2
+c_isspace|0-S-T:7
+decode_entity|2-S-T:6
+c_isxdigit|0-S-T:23
+c_toupper|0-S-T:27
+c_isdigit|0-S-T:11
+yylex|26-S-T:45
+yylex|80-S-T:4
+ssl_init|6-S-T:7
+ssl_check_certificate|21-S-T:6
+fd_read_body|90-S-T:5
+quotearg_buffer_restyled|1-S-T:12
+quotearg_buffer_restyled|55-S-T:103
+quotearg_buffer_restyled|98-S-T:3
+quotearg_buffer_restyled|105-S-T:10
+quotearg_buffer_restyled|207-S-T:6
+getproxy|4-S-T:6
+http_loop|82-S-T:31
+copy_and_escape|0-S-T:3
+c_isprint|0-S-T:96
+ftp_index|26-S-T:4
+ftp_loop_internal|73-S-T:28
+socket_ip_address|8-S-T:3
+getftp|86-S-T:7
+getftp|116-S-T:4
+getftp|124-S-T:3
+getftp|147-S-T:4
+getftp|158-S-T:5
+getftp|212-S-T:4
+getftp|219-S-T:5
+getftp|238-S-T:4
+getftp|255-S-T:6
+getftp|274-S-T:7
+getftp|290-S-T:5
+getftp|322-S-T:5
+getftp|336-S-T:5
+c_isalpha|0-S-T:53
+ftp_do_pasv|2-S-T:3
+ftp_do_port|2-S-T:3
+ip_address_to_lprt_repr|0-S-T:3
+sockaddr_set_data|0-S-T:3
+sockaddr_size|0-S-T:3
+sockaddr_get_data|0-S-T:3
+key_type_to_ssl_type|0-S-T:3
+parse_netrc_fp|38-S-T:9
+ftp_retrieve_list|35-S-T:5
+c_isascii|0-S-T:129
+ftp_parse_ls_fp|0-S-T:5
+ftp_parse_unix_ls|6-S-T:4
+ftp_parse_unix_ls|28-S-T:3
+ftp_parse_vms_ls|123-S-T:8
+gethttp|266-S-T:14
+gethttp|388-S-T:5
+gethttp|413-S-T:7
+release_header|0-S-T:5
+create_authorization_line|0-S-T:4
+ntlm_output|4-S-T:6
+wget_base64_encode|4-S-T:3
+sha1_stream|0-S-T:3
+check_domain_match|53-S-T:3
+address_list_contains|0-S-T:3
+write_reject_log_reason|2-S-T:13
+write_reject_log_url|2-S-T:5
+get_status_for_err|0-S-T:44
+c_iscntrl|0-S-T:34
+c_isupper|0-S-T:27
+warc_parse_cdx_header|5-S-T:4
+re_search_internal|55-S-T:6
+check_node_accept|0-S-T:5
+check_dst_limits_calc_pos_1|2-S-T:4
+optimize_utf8|2-S-T:12
+optimize_utf8|6-S-T:5
+calc_next|0-S-T:3
+link_nfa_nodes|0-S-T:9
+parse_expression|0-S-T:20
+parse_bracket_exp|38-S-T:6
+peek_token_bracket|14-S-T:4
+peek_token_bracket|22-S-T:4
+parse_bracket_symbol|15-S-T:4
+peek_token|16-S-T:27
+peek_token|85-S-T:14
+cmd_boolean|0-S-T:3
+cmd_check_cert|0-S-T:3
+cmd_time|8-S-T:6
+parse_bytes_helper|9-S-T:5

@@ -1,0 +1,4 @@
+temporalWorker-conditionalBbWorker: 
+{'setpriority', 'setuid', 'setrlimit'}
+piecewiseMaster-conditionalBbWorker: 
+{'setuid', 'getppid', 'umask', 'setrlimit', 'setpriority', 'setsid', 'mremap', 'execve'}

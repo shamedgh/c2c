@@ -1,0 +1,217 @@
+totalBrCount: 22845
+totalBrEdgeCount: 46733
+configBrCount: 1758
+configBrEdgeCount: 3516
+Global-Heap: B
+wHeapInitEdgeCount: 2598
+non-det-cmp-configBrEdgeCount: 1872
+indCallEdgeBrEdgeCount: 0
+Config Variable -> Cond Branch distribution:
+brCount:configVar 1:44
+brCount:configVar 2:37
+brCount:configVar 3:15
+brCount:configVar 4:7
+brCount:configVar 5:1
+brCount:configVar 6:9
+brCount:configVar 7:3
+brCount:configVar 8:2
+brCount:configVar 9:1
+brCount:configVar 10:1
+brCount:configVar 11:1
+brCount:configVar 13:1
+brCount:configVar 22:1
+brCount:configVar 35:1
+brCount:configVar 46:1
+brCount:configVar 433:1
+brCount:configVar 440:1
+Switch-Case count
+ap_get_server_port|0-S-T:5
+is_absolute_uri|6-S-T:21
+filetype_from_mode|0-S-T:7
+apr_vformatter|76-S-T:18
+apr_vformatter|307-S-T:11
+apr_error_string|0-S-T:46
+apr_os_strerror|0-S-T:3
+apr_inet_ntop|0-S-T:3
+log_ctime|4-S-T:3
+ap_escape_errorlog_item|10-S-T:8
+apply_rewrite_cond|2-S-T:19
+lookup_variable|49-S-T:12
+lookup_variable|66-S-T:5
+lookup_variable|80-S-T:7
+lookup_variable|104-S-T:9
+lookup_variable|152-S-T:6
+lookup_variable|189-S-T:5
+lookup_map|2-S-T:8
+lookup_map_dbd|29-S-T:3
+vt_sdbm_open|0-S-T:5
+apr_file_seek|5-S-T:4
+apu__sdbm_hash|1-S-T:9
+ap_process_request_internal|83-S-T:4
+ap_expr_eval_word|2-S-T:7
+ap_expr_eval|3-S-T:9
+ssl_expr_eval_comp|0-S-T:13
+ap_expr_eval_comp|0-S-T:16
+lookup_builtin_method|0-S-T:12
+lookup_builtin_method|1-S-T:3
+lookup_builtin_method|9-S-T:6
+lookup_builtin_method|31-S-T:6
+lookup_builtin_method|38-S-T:4
+lookup_builtin_method|39-S-T:3
+lookup_builtin_method|46-S-T:4
+lookup_builtin_method|51-S-T:3
+lookup_builtin_method|56-S-T:3
+ap_regexec_len|27-S-T:10
+ap_get_server_name|0-S-T:5
+ap_state_query|0-S-T:4
+apr_proc_create|82-S-T:3
+file_pipe_block|0-S-T:4
+ap_unixd_set_proc_mutex_perms|1-S-T:3
+proc_mutex_choose_method|0-S-T:8
+get_canned_error_string|0-S-T:42
+ap_map_http_request_error|0-S-T:6
+cmd_rewritecond|17-S-T:10
+cmd_rewritecond|29-S-T:5
+cmd_rewritecond|51-S-T:4
+cmd_rewriterule_setflag|0-S-T:29
+ap_expr_yyparse|43-S-T:53
+ap_expr_yylex|30-S-T:76
+ap_expr_yylex|231-S-T:4
+yysyntax_error|22-S-T:7
+yytnamerr|2-S-T:5
+apr_fnmatch_test|2-S-T:6
+status_handler|18-S-T:4
+status_handler|188-S-T:12
+apr_date_checkmask|2-S-T:8
+find_list_item|48-S-T:10
+ap_get_list_item|12-S-T:10
+ap_size_list_item|15-S-T:5
+handle_headers|3-S-T:2
+handle_headers|8-S-T:4
+filetype_from_dirent_type|0-S-T:8
+dsortf|9-S-T:4
+status_handler|205-S-T:12
+ap_ht_time|7-S-T:4
+ap_escape_logitem|13-S-T:8
+event_query|0-S-T:16
+reclaim_one_pid|6-S-T:6
+ap_process_child_status|9-S-T:5
+podx_signal_internal|0-S-T:4
+child_main|39-S-T:3
+check_signal|0-S-T:3
+ap_mpm_podx_check|1-S-T:3
+listener_thread|118-S-T:5
+decrement_connection_count|0-S-T:4
+apr_socket_opt_set|3-S-T:15
+ap_unixd_accept|4-S-T:9
+pollset_provider|0-S-T:8
+apr_socket_opt_get|0-S-T:1
+apr_inet_pton|0-S-T:3
+apr_xlate_conv_buffer|2-S-T:5
+balancer_handler|479-S-T:4
+ajp_type_str|0-S-T:10
+ap_timeout_parameter_parse|6-S-T:4
+ap_timeout_parameter_parse|9-S-T:3
+ap_proxy_ajp_request|338-S-T:5
+is_idempotent|0-S-T:6
+sc_for_req_header|6-S-T:7
+scgi_request_status|2-S-T:3
+dispatch|109-S-T:4
+invoke_cmd|12-S-T:14
+proxy_http_canon|58-S-T:3
+ap_proxy_http_request|142-S-T:4
+ftp_get_PWD|0-S-T:5
+proxy_handler|18-S-T:3
+ap_http_filter|243-S-T:12
+match_headers|7-S-T:8
+non_regex_pattern|2-S-T:15
+piped_log_maintenance|0-S-T:6
+parse_log_item|6-S-T:16
+parse_log_misc_string|11-S-T:5
+log_request_time|41-S-T:6
+bail_out_on_error|1-S-T:4
+ap_read_request|1-S-T:6
+find_directive|0-S-T:5
+find_argument|0-S-T:9
+find_argument|7-S-T:4
+find_argument|51-S-T:4
+filter_chain|0-S-T:6
+filter_trace|0-S-T:3
+send_parsed_content|48-S-T:19
+send_parsed_content|155-S-T:3
+parse_expr|11-S-T:5
+parse_expr|19-S-T:15
+parse_expr|20-S-T:5
+parse_expr|25-S-T:3
+parse_expr|29-S-T:4
+parse_expr|32-S-T:4
+parse_expr|44-S-T:4
+parse_expr|57-S-T:5
+parse_expr|70-S-T:15
+parse_expr|81-S-T:2
+parse_expr|93-S-T:2
+parse_expr|133-S-T:5
+include_expr_lookup|0-S-T:2
+get_ptoken|7-S-T:12
+get_ptoken|51-S-T:9
+authenticate_basic_user|49-S-T:4
+ap_mpm_rewrite_args|2-S-T:2
+ap_core_child_status|11-S-T:4
+ap_switch_protocol|4-S-T:4
+ap_dump_mutexes|7-S-T:6
+core_expr_lookup|0-S-T:5
+core_expr_lookup|10-S-T:4
+expr_lookup_not_found|0-S-T:6
+op_T|0-S-T:9
+op_file_min|2-S-T:5
+misc_var_fn|0-S-T:11
+request_var_fn|2-S-T:31
+conn_var_fn|2-S-T:6
+parse_errorlog_item|11-S-T:15
+parse_errorlog_misc_string|11-S-T:5
+ap_rxplus_compile|23-S-T:8
+ap_rxplus_compile|39-S-T:3
+ap_parse_form_data|44-S-T:4
+ap_some_authn_required|0-S-T:4
+apr_xml_parser_geterror|0-S-T:6
+apr_pencode_base64|0-S-T:3
+apr_pencode_base64_binary|0-S-T:3
+apr_pdecode_base64|0-S-T:4
+apr_pdecode_base64_binary|0-S-T:4
+apr_pencode_base32|0-S-T:3
+apr_pencode_base32_binary|0-S-T:3
+apr_pdecode_base32|0-S-T:4
+apr_pdecode_base32_binary|0-S-T:4
+apr_pencode_base16|0-S-T:3
+apr_pencode_base16_binary|0-S-T:3
+apr_pdecode_base16|0-S-T:4
+apr_pdecode_base16_binary|0-S-T:4
+apr_pescape_shell|0-S-T:3
+apr_punescape_url|0-S-T:5
+apr_pescape_path_segment|0-S-T:3
+apr_pescape_path|0-S-T:3
+apr_pescape_urlencoded|0-S-T:3
+apr_escape_entity|7-S-T:6
+apr_escape_entity|26-S-T:6
+apr_pescape_entity|0-S-T:3
+apr_punescape_entity|0-S-T:3
+apr_escape_echo|7-S-T:10
+apr_escape_echo|30-S-T:10
+apr_pescape_echo|0-S-T:3
+apr_pescape_hex|0-S-T:3
+apr_punescape_hex|0-S-T:4
+apr_pescape_ldap|0-S-T:3
+pollcb_provider|0-S-T:8
+apr_procattr_limit_set|0-S-T:5
+apr_date_parse_rfc|110-S-T:3
+apr_dbd_prepare|17-S-T:7
+apr_dbd_prepare|21-S-T:4
+apr_dbd_prepare|22-S-T:3
+apr_dbd_prepare|29-S-T:5
+apr_dbd_prepare|30-S-T:3
+apr_dbd_prepare|39-S-T:10
+apr_dbd_prepare|51-S-T:4
+apr_siphash|11-S-T:9
+apr_siphash24|9-S-T:9
+apr_siphash48|13-S-T:9
+main|9-S-T:19

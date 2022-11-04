@@ -1,0 +1,4 @@
+temporalWorker-conditionalBbWorker: 
+{'readv', 'getsockname', 'uname', 'recvmsg'}
+piecewiseMaster-conditionalBbWorker: 
+{'pipe', 'setsid', 'getsockname', 'getgid', 'chdir', 'getpeername', 'getegid', 'geteuid', 'bind', 'readv', 'epoll_create1', 'setuid', 'readlink', 'getuid', 'chmod', 'setgid', 'prctl', 'setrlimit', 'setgroups', 'recvmsg', 'pipe2', 'uname', 'listen', 'alarm', 'inotify_init1', 'chroot'}

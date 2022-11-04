@@ -1,0 +1,129 @@
+totalBrCount: 7613
+totalBrEdgeCount: 15768
+configBrCount: 278
+configBrEdgeCount: 556
+Global-Heap: G
+wHeapInitEdgeCount: 0
+non-det-cmp-configBrEdgeCount: 98
+indCallEdgeBrEdgeCount: 0
+Config Variable -> Cond Branch distribution:
+brCount:configVar 1:18
+brCount:configVar 2:12
+brCount:configVar 3:6
+brCount:configVar 4:5
+brCount:configVar 5:3
+brCount:configVar 6:4
+brCount:configVar 7:2
+brCount:configVar 8:2
+brCount:configVar 9:3
+brCount:configVar 12:1
+brCount:configVar 89:1
+Switch-Case count
+be_filter_ctrl|0-S-T:5
+event_log|2-S-T:5
+event_callback_cancel_nolock_|5-S-T:5
+event_callback_activate_nolock_|2-S-T:4
+be_socket_ctrl|0-S-T:5
+daemonize|0-S-T:3
+event_active_nolock_|15-S-T:5
+epoll_apply_one_change|14-S-T:4
+main|6-S-T:38
+main|93-S-T:40
+main|245-S-T:3
+main|333-S-T:6
+main|418-S-T:3
+storage_read_config|0-S-T:15
+hash_init|0-S-T:4
+get_conn_text|0-S-T:4
+_mc_meta_load_cb|15-S-T:18
+event_base_cancel_single_callback_|19-S-T:4
+event_process_active_single_queue|23-S-T:8
+conn_new|42-S-T:4
+prot_text|0-S-T:4
+drive_machine|2-S-T:15
+drive_machine|43-S-T:5
+drive_machine|142-S-T:5
+write_bin_error|1-S-T:10
+evhttp_method_may_have_body|0-S-T:10
+lru_pull_tail|29-S-T:5
+complete_nread_ascii|17-S-T:5
+complete_nread_binary|0-S-T:3
+complete_update_bin|5-S-T:7
+process_bin_complete_sasl_auth|9-S-T:3
+process_bin_complete_sasl_auth|23-S-T:3
+process_bin_complete_sasl_auth|32-S-T:3
+do_store_item|17-S-T:7
+do_store_item|63-S-T:7
+_finalize_mset|0-S-T:5
+_finalize_mset|13-S-T:4
+itoa|0-S-T:11
+dispatch_bin_command|8-S-T:15
+dispatch_bin_command|24-S-T:26
+authenticated|0-S-T:5
+process_bin_update|33-S-T:4
+complete_incr_bin|8-S-T:6
+process_bin_append_prepend|11-S-T:3
+pause_threads|0-S-T:5
+item_stats|17-S-T:5
+process_command|9-S-T:7
+process_mget_command|32-S-T:12
+process_mset_command|19-S-T:4
+process_mset_command|27-S-T:7
+process_mdelete_command|12-S-T:3
+process_marithmetic_command|10-S-T:6
+process_marithmetic_command|15-S-T:6
+process_marithmetic_command|47-S-T:7
+process_marithmetic_command|74-S-T:3
+process_slabs_command|7-S-T:6
+process_arithmetic_command|4-S-T:6
+process_lru_crawler_command|4-S-T:6
+process_lru_crawler_command|19-S-T:6
+process_watch_command|29-S-T:4
+evutil_gai_strerror|0-S-T:14
+_meta_flag_preparse|5-S-T:22
+slab_rebalance_move|32-S-T:6
+lru_maintainer_crawler_check|18-S-T:5
+_logger_util_addr_endpoint|0-S-T:5
+evutil_unparse_protoname|0-S-T:5
+thread_libevent_process|8-S-T:7
+extstore_err|0-S-T:9
+extstore_io_thread|14-S-T:3
+logger_thread_poll_watchers|34-S-T:3
+jenkins_hash|4-S-T:14
+jenkins_hash|23-S-T:14
+jenkins_hash|41-S-T:14
+MurmurHash3_x86_32|4-S-T:4
+storage_conf_parse|4-S-T:5
+evbuffer_search_eol|16-S-T:6
+evbuffer_ptr_set|6-S-T:3
+evutil_hex_char_to_int_|0-S-T:23
+evdns_server_request_add_reply|6-S-T:4
+evdns_request_transmit|23-S-T:3
+reply_handle|31-S-T:4
+evdns_err_to_string|0-S-T:13
+reply_run_callback|0-S-T:4
+evrpc_remove_hook|0-S-T:3
+evrpc_add_hook|0-S-T:3
+evrpc_request_cb|6-S-T:4
+evhttp_error_cb|2-S-T:9
+evhttp_read_cb|0-S-T:9
+evhttp_read_header|14-S-T:3
+evhttp_read_body|1-S-T:6
+evhttp_read_trailer|0-S-T:6
+evhttp_get_body|12-S-T:4
+evhttp_parse_firstline_|8-S-T:3
+evhttp_parse_request_line|12-S-T:6
+evhttp_parse_request_line|15-S-T:3
+evhttp_parse_request_line|24-S-T:3
+evhttp_parse_request_line|37-S-T:3
+evhttp_parse_request_line|61-S-T:3
+prefix_suffix_match|1-S-T:3
+end_of_path|1-S-T:4
+evhttp_connection_incoming_fail|0-S-T:2
+evhttp_connection_incoming_fail|3-S-T:7
+evhttp_connected|0-S-T:9
+html_replace|0-S-T:6
+evhttp_method|0-S-T:10
+evrpc_request_done|9-S-T:4
+evrpc_schedule_request|3-S-T:4
+evrpc_reply_done|3-S-T:4

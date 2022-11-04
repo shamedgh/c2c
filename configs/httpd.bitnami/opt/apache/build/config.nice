@@ -1,0 +1,33 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-s"; export CFLAGS
+CPPFLAGS="-I/opt/bitnami/common/include -I/opt/bitnami/apache/include"; export CPPFLAGS
+LDFLAGS="-Wl,-rpath=/opt/bitnami/common/lib -L/opt/bitnami/common/lib -Wl,-rpath=/opt/bitnami/apache/lib -L/opt/bitnami/apache/lib"; export LDFLAGS
+"/bitnami/blacksmith-sandox/apache-2.4.46/configure" \
+"--prefix=/opt/bitnami/apache" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-http2" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--enable-mpms-shared=all" \
+"--with-mpm=prefork" \
+"--with-apr=/opt/bitnami/apache" \
+"--with-apr-util=/opt/bitnami/apache" \
+"--enable-proxy-balancer" \
+"CC=gcc" \
+"CFLAGS=-s" \
+"LDFLAGS=-Wl,-rpath=/opt/bitnami/common/lib -L/opt/bitnami/common/lib -Wl,-rpath=/opt/bitnami/apache/lib -L/opt/bitnami/apache/lib" \
+"CPPFLAGS=-I/opt/bitnami/common/include -I/opt/bitnami/apache/include" \
+"$@"

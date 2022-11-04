@@ -1,0 +1,284 @@
+totalBrCount: 16901
+totalBrEdgeCount: 34922
+configBrCount: 1611
+configBrEdgeCount: 3229
+Global-Heap: G
+wHeapInitEdgeCount: 0
+non-det-cmp-configBrEdgeCount: 652
+indCallEdgeBrEdgeCount: 0
+Config Variable -> Cond Branch distribution:
+brCount:configVar 1:126
+brCount:configVar 2:63
+brCount:configVar 3:37
+brCount:configVar 4:23
+brCount:configVar 5:9
+brCount:configVar 6:8
+brCount:configVar 7:4
+brCount:configVar 8:4
+brCount:configVar 9:3
+brCount:configVar 10:2
+brCount:configVar 11:1
+brCount:configVar 12:3
+brCount:configVar 14:3
+brCount:configVar 15:1
+brCount:configVar 16:2
+brCount:configVar 20:3
+brCount:configVar 21:2
+brCount:configVar 22:1
+brCount:configVar 23:1
+brCount:configVar 24:1
+brCount:configVar 30:1
+brCount:configVar 33:1
+brCount:configVar 56:1
+brCount:configVar 212:1
+brCount:configVar 275:1
+Switch-Case count
+sdslen|0-S-T:6
+sdsHdrSize|0-S-T:6
+siphash|6-S-T:9
+siphash_nocase|6-S-T:9
+moduleCommand|15-S-T:5
+copyCommand|29-S-T:8
+execCommand|12-S-T:4
+sortCommand|58-S-T:4
+roleCommand|13-S-T:6
+debugCommand|232-S-T:3
+decrRefCount|1-S-T:8
+freeSetObject|0-S-T:3
+sdslen.3609|0-S-T:6
+freeZsetObject|0-S-T:3
+freeHashObject|0-S-T:3
+bitopCommand|93-S-T:4
+pfaddCommand|7-S-T:3
+pfmergeCommand|22-S-T:3
+aclCommand|146-S-T:5
+aclCommand|152-S-T:4
+sdslen.863|0-S-T:6
+sdscatrepr|2-S-T:8
+sdslen.699|0-S-T:6
+sdssetlen|0-S-T:6
+sdsavail.702|0-S-T:6
+sdssetalloc|0-S-T:6
+_sdsnewlen|19-S-T:6
+sdslen.1227|0-S-T:6
+sdslen.4910|0-S-T:6
+sdsIncrLen|0-S-T:6
+sdslen.5503|0-S-T:6
+sdslen.2167|0-S-T:6
+sdslen.1364|0-S-T:6
+sdsavail.1075|0-S-T:6
+sdscatfmt|4-S-T:2
+sdscatfmt|5-S-T:7
+sdsinclen|0-S-T:6
+genRedisInfoString|143-S-T:5
+lua_gc|0-S-T:9
+getFailoverStateString|0-S-T:4
+sdsalloc.5344|0-S-T:6
+singlestep|0-S-T:6
+propagatemark|0-S-T:5
+luaV_execute|8-S-T:39
+luaV_execute|119-S-T:3
+luaV_execute|175-S-T:3
+luaV_execute|183-S-T:3
+Arith|2-S-T:8
+luaV_equalval|0-S-T:7
+mainposition|0-S-T:5
+luaH_get|0-S-T:4
+luaO_rawequalObj|2-S-T:5
+luaT_gettmbyobj|0-S-T:3
+getobjname|4-S-T:6
+symbexec|8-S-T:4
+symbexec|46-S-T:19
+processCommand|58-S-T:4
+checkArgMode|0-S-T:5
+luaG_checkopenop|0-S-T:5
+reallymarkobject|0-S-T:8
+luaD_seterrorobj|0-S-T:5
+luaO_pushvfstring|6-S-T:7
+freeobj|0-S-T:8
+sdslen.1499|0-S-T:6
+sdslen.2732|0-S-T:6
+autoMemoryCollect|4-S-T:6
+getBlockedTypeByType|0-S-T:5
+sdslen.5977|0-S-T:6
+sdslen.4675|0-S-T:6
+lzf_decompress|7-S-T:33
+lzf_decompress|51-S-T:11
+sdslen.1793|0-S-T:6
+rdbSaveObjectType|0-S-T:8
+txtToken|0-S-T:4
+block_follow|0-S-T:6
+statement|0-S-T:10
+forstat|0-S-T:4
+primaryexp|1-S-T:7
+luaK_storevar|0-S-T:5
+luaK_exp2RK|0-S-T:6
+addACLLogEntry|3-S-T:5
+dupStringObject|4-S-T:4
+sdslen.2862|0-S-T:6
+stringmatchlen|4-S-T:5
+sdslen.2026|0-S-T:6
+zipIntSize|0-S-T:6
+sdslen.5336|0-S-T:6
+sdssetlen.5337|0-S-T:6
+sdslen.3267|0-S-T:6
+sdslen.5824|0-S-T:6
+sdslen.5962|0-S-T:6
+sdssplitargs|19-S-T:6
+sdssplitargs|54-S-T:8
+hex_digit_to_int|0-S-T:23
+sdslen.3967|0-S-T:6
+rdbGenericLoadStringObject|3-S-T:5
+rdbLoadObject|176-S-T:6
+rdbLoadDoubleValue|2-S-T:4
+sdslen.2315|0-S-T:6
+sdsavail.1239|0-S-T:6
+sdslen.3671|0-S-T:6
+getStringObjectSdsUsedMemory|4-S-T:3
+index2adr|6-S-T:4
+sdslen.5736|0-S-T:6
+luaK_dischargevars|0-S-T:7
+discharge2reg|0-S-T:8
+getunopr|0-S-T:4
+luaK_prefix|0-S-T:4
+simpleexp|0-S-T:9
+getbinopr|0-S-T:16
+luaK_infix|0-S-T:10
+luaK_posfix|0-S-T:16
+constfolding|3-S-T:9
+luaK_goiftrue|0-S-T:5
+luaK_goiffalse|0-S-T:4
+constructor|3-S-T:3
+parlist|2-S-T:3
+llex|1-S-T:13
+read_long_string|7-S-T:6
+read_string|5-S-T:5
+read_string|11-S-T:11
+codenot|0-S-T:9
+prefixexp|0-S-T:3
+funcargs|0-S-T:4
+sdsavail.3972|0-S-T:6
+sdsavail.2743|0-S-T:6
+sdslen.1977|0-S-T:6
+sdslen.5725|0-S-T:6
+renderCanvas.5740|4-S-T:5
+sdslen.5744|0-S-T:6
+json_process_value|0-S-T:7
+json_append_data|0-S-T:7
+getStringObjectLen|4-S-T:3
+sdslen.4574|0-S-T:6
+hllAdd|0-S-T:3
+MurmurHash64A|3-S-T:8
+sdslen.4844|0-S-T:6
+ld2string|11-S-T:4
+sdslen.4034|0-S-T:6
+redis_math_random|0-S-T:4
+auxgetinfo|4-S-T:7
+ldbCatStackValueRec|2-S-T:10
+lua_topointer|0-S-T:6
+lua_touserdata|0-S-T:3
+luaRedisGenericCommand|56-S-T:4
+sdssetlen.3653|0-S-T:6
+redisProtocolToLuaType|2-S-T:11
+sdsalloc.3672|0-S-T:6
+ldbRedisProtocolToHuman|0-S-T:11
+mp_decode_to_lua_type|4-S-T:21
+mp_encode_lua_type|3-S-T:5
+lua_objlen|0-S-T:5
+b_pack|7-S-T:15
+b_unpack|7-S-T:15
+optsize|0-S-T:14
+controloptions|0-S-T:5
+lua_setmetatable|3-S-T:3
+keyspaceEventsStringToFlags|2-S-T:15
+sdslen.2936|0-S-T:6
+sdsavail.3023|0-S-T:6
+lua_setfenv|0-S-T:4
+lua_getmetatable|0-S-T:3
+lua_getfenv|0-S-T:4
+math_random|0-S-T:4
+str_format|12-S-T:15
+match|1-S-T:6
+match|6-S-T:3
+match|34-S-T:5
+classend|0-S-T:3
+singlematch|0-S-T:4
+match_class|0-S-T:11
+add_value|0-S-T:5
+addquoted|4-S-T:6
+DumpConstants|2-S-T:5
+tinsert|0-S-T:3
+costatus|2-S-T:3
+luaB_collectgarbage|0-S-T:3
+luaB_tostring|2-S-T:5
+luaReplyToRedisReply|2-S-T:5
+strEncoding|0-S-T:10
+clusterGetMessageTypeString|0-S-T:11
+sdslen.2399|0-S-T:6
+sdslen.4110|0-S-T:6
+getClientTypeName|0-S-T:5
+sigShutdownHandler|0-S-T:3
+hi_sdsHdrSize|0-S-T:6
+setTypeNextObject|0-S-T:4
+sdslen.3198|0-S-T:6
+strChildType|0-S-T:5
+backgroundSaveDoneHandler|0-S-T:3
+getObjectTypeName|2-S-T:8
+listTypeDup|4-S-T:2
+streamDup|4-S-T:2
+zrangeResultHandlerInit|0-S-T:3
+zrangeGenericCommand|41-S-T:5
+zrangeGenericCommand|65-S-T:5
+zslParseLexRangeItem|0-S-T:5
+zremrangeGenericCommand|33-S-T:5
+zremrangeGenericCommand|41-S-T:5
+sdslen.2132|0-S-T:6
+sentinelCheckCreateInstanceErrors|0-S-T:4
+sentinelCheckCreateInstanceErrors|1-S-T:4
+sentinelSetCommand|82-S-T:3
+sentinelFailoverStateStr|0-S-T:8
+sdsavail|0-S-T:6
+sdsalloc|0-S-T:6
+sdslen.5358|0-S-T:6
+sentinelFailoverStateMachine|6-S-T:6
+redisvFormatCommand|20-S-T:4
+hi_sdsnewlen|7-S-T:6
+hi_sdslen.6221|0-S-T:6
+hi_sdssetlen|0-S-T:6
+hi_sdsavail|0-S-T:6
+hi_sdssetalloc|0-S-T:6
+hi_sdslen.6178|0-S-T:6
+redisCheckConnectDone|2-S-T:5
+hi_sdslen|0-S-T:6
+freeReplyObject|2-S-T:11
+hi_sdslen.6151|0-S-T:6
+processItem|2-S-T:13
+processItem|19-S-T:13
+hi_sdslen.6262|0-S-T:6
+chrtos|0-S-T:8
+hi_sdsavail.6261|0-S-T:6
+clusterLogCantFailover|7-S-T:5
+hi_sdscatfmt|6-S-T:2
+hi_sdscatfmt|7-S-T:7
+hi_sdsinclen|0-S-T:6
+sdslen.4548|0-S-T:6
+bioProcessBackgroundJobs|6-S-T:4
+redisIsSupervised|15-S-T:3
+sdslen.1209|0-S-T:6
+RM_KeyType|3-S-T:8
+RM_ValueLength|3-S-T:7
+RM_CallReplyLength|0-S-T:4
+RM_CreateStringFromCallReply|0-S-T:4
+RM_IsSubEventSupported|0-S-T:15
+moduleInitKeyTypeSpecific|0-S-T:3
+moduleCreateEmptyKey|3-S-T:5
+moduleDelKeyIfEmpty|3-S-T:6
+sdsavail.4923|0-S-T:6
+moduleParseCallReply|2-S-T:6
+moduleCreateCallReplyFromProto|0-S-T:6
+hi_sdsalloc|0-S-T:6
+hi_sdsIncrLen|0-S-T:6
+hi_sdscatrepr|2-S-T:8
+hi_sdssplitargs|19-S-T:6
+hi_sdssplitargs|54-S-T:8
+hi_hex_digit_to_int|0-S-T:23

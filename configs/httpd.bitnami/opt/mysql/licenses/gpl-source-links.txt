@@ -1,0 +1,1 @@
+mysql-client-10.3.28,GPL2,https://downloads.mariadb.org/f/mariadb-10.3.28/source/mariadb-10.3.28.tar.gz

@@ -1,0 +1,4 @@
+temporalWorker-conditionalBbWorker: 
+{'clone', 'execve', 'mremap', 'fsetxattr', 'setresgid', 'chmod', 'pipe', 'pipe2', 'getgid', 'symlink', 'setresuid', 'sched_setparam', 'rename', 'setsid'}
+piecewiseMaster-conditionalBbWorker: 
+{'clone', 'execve', 'mremap', 'fsetxattr', 'setresgid', 'chmod', 'pipe', 'pipe2', 'getgid', 'symlink', 'setresuid', 'sched_setparam', 'rename', 'setsid'}

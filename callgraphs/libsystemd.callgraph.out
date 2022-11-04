@@ -1,0 +1,5 @@
+gettid->syscall(186)
+gettid.1261->syscall(186)
+gettid.2580->syscall(186)
+getrandom->syscall(318)
+gettid.2585->syscall(186)

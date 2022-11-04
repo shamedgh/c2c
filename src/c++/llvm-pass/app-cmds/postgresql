@@ -1,0 +1,9 @@
+opt -load ~/svf/svf.newest/SVF-2.2/Debug-build/lib/libSvf.so -load ./src/libc2c-lib.so.12 -c2c -enable-debugging -option-mapper-struct-type struct.config_bool,struct.config_int,struct.config_real,struct.config_string,struct.config_enum -option-mapper-struct-field-index 1 -enable-acfg -acfg-path /tmp/postgres.woptr.acfg -enable-instrument -transition-func CreateDataDirLockFile ../instrumentation/postgres.wcheckfuncs.bc -o outputs/postgres.winstrument.bc
+
+option-mapper-struct:
+    - struct.config_bool (index: 1)
+    - struct.config_int (index: 1)
+    - struct.config_real (index: 1)
+    - struct.config_string (index: 1)
+    - struct.config_enum (index: 1)
+    - 

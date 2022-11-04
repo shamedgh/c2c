@@ -1,0 +1,275 @@
+totalBrCount: 19381
+totalBrEdgeCount: 39616
+configBrCount: 2032
+configBrEdgeCount: 4078
+Global-Heap: H
+wHeapInitEdgeCount: 3810
+non-det-cmp-configBrEdgeCount: 654
+indCallEdgeBrEdgeCount: 0
+Config Variable -> Cond Branch distribution:
+brCount:configVar 1:76
+brCount:configVar 2:103
+brCount:configVar 3:69
+brCount:configVar 4:48
+brCount:configVar 5:23
+brCount:configVar 6:13
+brCount:configVar 7:5
+brCount:configVar 8:26
+brCount:configVar 9:2
+brCount:configVar 10:4
+brCount:configVar 11:1
+brCount:configVar 12:14
+brCount:configVar 15:1
+brCount:configVar 16:2
+brCount:configVar 18:2
+brCount:configVar 20:1
+brCount:configVar 23:1
+brCount:configVar 25:2
+brCount:configVar 49:1
+brCount:configVar 55:2
+brCount:configVar 121:1
+brCount:configVar 215:1
+Switch-Case count
+ngx_vslprintf|11-S-T:7
+ngx_vslprintf|29-S-T:22
+ngx_parse_offset|2-S-T:7
+ngx_parse_time|10-S-T:9
+ngx_debug_point|0-S-T:3
+ngx_writev|2-S-T:3
+ngx_connection_error|13-S-T:4
+ngx_sendmsg|18-S-T:3
+ngx_inet_resolve_host|6-S-T:3
+ngx_inet_resolve_host|15-S-T:3
+ngx_inet_wildcard|0-S-T:3
+ngx_inet_set_port|0-S-T:3
+ngx_sock_ntop|0-S-T:4
+ngx_conf_read_token|57-S-T:9
+ngx_conf_read_token|105-S-T:7
+ngx_cmp_sockaddr|2-S-T:3
+ngx_signal_handler|7-S-T:5
+ngx_signal_handler|8-S-T:11
+ngx_signal_handler|24-S-T:9
+ngx_http_init_phase_handlers|8-S-T:8
+ngx_create_listening|4-S-T:4
+ngx_connection_local_sockaddr|1-S-T:3
+ngx_ssl_recv|18-S-T:4
+ngx_ssl_connection_error|10-S-T:4
+ngx_ssl_connection_error|73-S-T:4
+ngx_ssl_recv_early|24-S-T:4
+ngx_proxy_protocol_v2_read|12-S-T:3
+ngx_parse_size|2-S-T:5
+ngx_ssl_ocsp_parse_status_line|2-S-T:14
+ngx_ssl_ocsp_parse_status_line|51-S-T:5
+ngx_ssl_ocsp_parse_status_line|58-S-T:3
+ngx_ssl_ocsp_parse_header_line|2-S-T:8
+ngx_ssl_ocsp_parse_header_line|3-S-T:3
+ngx_ssl_ocsp_parse_header_line|29-S-T:4
+ngx_ssl_ocsp_parse_header_line|35-S-T:4
+ngx_ssl_ocsp_parse_header_line|40-S-T:4
+ngx_event_connect_set_transparent|0-S-T:3
+ngx_inet_get_port|0-S-T:3
+ngx_close_connection|28-S-T:3
+ngx_http_validate_host|2-S-T:6
+ngx_resolver_process_response|40-S-T:5
+ngx_resolver_process_a|92-S-T:5
+ngx_resolver_process_srv|56-S-T:4
+ngx_resolver_process_ptr|71-S-T:3
+ngx_parse_http_time|33-S-T:9
+ngx_slab_free_locked|3-S-T:5
+ngx_http_parse_complex_uri|16-S-T:7
+ngx_http_parse_complex_uri|29-S-T:7
+ngx_http_parse_complex_uri|40-S-T:6
+ngx_http_v2_pseudo_header|0-S-T:4
+ngx_http_parse_uri|2-S-T:5
+ngx_http_parse_uri|8-S-T:8
+ngx_http_parse_uri|20-S-T:8
+ngx_http_parse_uri|31-S-T:3
+ngx_http_v2_state_rst_stream|13-S-T:4
+ngx_http_v2_state_settings_params|4-S-T:6
+ngx_http_handler|1-S-T:4
+ngx_http_special_response_handler|1-S-T:9
+ngx_http_special_response_handler|5-S-T:5
+ngx_http_special_response_handler|39-S-T:5
+ngx_http_parse_chunked|5-S-T:14
+ngx_http_parse_chunked|22-S-T:6
+ngx_http_parse_chunked|28-S-T:6
+ngx_http_parse_chunked|34-S-T:3
+ngx_http_parse_chunked|42-S-T:3
+ngx_http_parse_chunked|49-S-T:3
+ngx_http_parse_chunked|56-S-T:3
+ngx_http_parse_chunked|64-S-T:3
+ngx_http_parse_chunked|76-S-T:14
+ngx_http_parse_request_line|2-S-T:28
+ngx_http_parse_request_line|13-S-T:8
+ngx_http_parse_request_line|112-S-T:4
+ngx_http_parse_request_line|124-S-T:18
+ngx_http_parse_request_line|134-S-T:3
+ngx_http_parse_request_line|139-S-T:5
+ngx_http_parse_request_line|148-S-T:11
+ngx_http_parse_request_line|163-S-T:11
+ngx_http_parse_request_line|175-S-T:5
+ngx_http_parse_request_line|184-S-T:6
+ngx_http_parse_request_line|191-S-T:5
+ngx_http_parse_request_line|244-S-T:4
+ngx_http_parse_header_line|2-S-T:9
+ngx_http_parse_header_line|3-S-T:3
+ngx_http_parse_header_line|38-S-T:5
+ngx_http_parse_header_line|45-S-T:5
+ngx_http_parse_header_line|51-S-T:5
+ngx_http_parse_header_line|62-S-T:3
+ngx_http_parse_complex_uri|2-S-T:7
+ngx_http_parse_complex_uri|5-S-T:7
+ngx_http_variable_tcpinfo|4-S-T:5
+ngx_http_process_user_agent|5-S-T:4
+ngx_http_core_error_page|33-S-T:4
+ngx_http_variable_binary_remote_addr|0-S-T:3
+ngx_http_v2_header_filter|15-S-T:4
+ngx_http_log_variable_compile|2-S-T:3
+ngx_escape_json|7-S-T:6
+ngx_escape_json|21-S-T:6
+ngx_http_upstream_process_accel_expires|5-S-T:3
+ngx_http_v2_header_filter|10-S-T:5
+ngx_unescape_uri|2-S-T:4
+ngx_http_range_header_filter|33-S-T:4
+ngx_http_gzip_body_filter|6-S-T:3
+ngx_http_gzip_accept_encoding|10-S-T:4
+ngx_http_gzip_accept_encoding|18-S-T:4
+ngx_http_ssi_parse|13-S-T:21
+ngx_http_ssi_parse|15-S-T:3
+ngx_http_ssi_parse|20-S-T:3
+ngx_http_ssi_parse|25-S-T:3
+ngx_http_ssi_parse|30-S-T:3
+ngx_http_ssi_parse|37-S-T:5
+ngx_http_ssi_parse|43-S-T:6
+ngx_http_ssi_parse|52-S-T:6
+ngx_http_ssi_parse|66-S-T:7
+ngx_http_ssi_parse|78-S-T:6
+ngx_http_ssi_parse|88-S-T:7
+ngx_http_ssi_parse|99-S-T:3
+ngx_http_ssi_parse|108-S-T:3
+ngx_http_ssi_parse|127-S-T:6
+ngx_http_ssi_echo|32-S-T:3
+ngx_escape_html|3-S-T:5
+ngx_escape_html|13-S-T:5
+ngx_http_static_handler|9-S-T:8
+ngx_http_gzip_static_handler|17-S-T:8
+ngx_http_filter_finalize_request|4-S-T:3
+ngx_http_image_body_filter|4-S-T:5
+ngx_http_image_size|0-S-T:5
+ngx_http_image_size|39-S-T:4
+ngx_http_image_resize|61-S-T:4
+ngx_http_image_source|0-S-T:5
+ngx_http_image_out|0-S-T:5
+ngx_http_userid_create_uid|30-S-T:3
+ngx_http_headers_filter|6-S-T:11
+ngx_http_trailers_filter|14-S-T:11
+ngx_http_access_handler|0-S-T:4
+ngx_http_dav_handler|2-S-T:6
+ngx_create_full_path|5-S-T:3
+ngx_http_autoindex_handler|32-S-T:4
+ngx_http_autoindex_handler|91-S-T:4
+ngx_http_auth_basic_handler|30-S-T:4
+ngx_http_upstream_bind_set_slot|15-S-T:3
+ngx_http_realip_handler|4-S-T:4
+ngx_cidr_match|14-S-T:3
+ngx_http_geo_range_variable|1-S-T:3
+ngx_radix_tree_create|7-S-T:3
+ngx_http_geo_cidr_variable|2-S-T:3
+ngx_http_geo_include|5-S-T:3
+ngx_http_geoip_country|9-S-T:3
+ngx_http_geoip_org|9-S-T:9
+ngx_http_geoip_city|9-S-T:5
+ngx_http_geoip_addr_v6|3-S-T:3
+ngx_murmur_hash2|3-S-T:4
+ngx_http_script_file_code|11-S-T:9
+ngx_http_script_file_code|15-S-T:9
+ngx_http_upstream_cache|16-S-T:3
+ngx_http_upstream_cache|21-S-T:4
+ngx_http_upstream_cache|38-S-T:7
+ngx_http_upstream_next|15-S-T:8
+ngx_http_upstream_send_response|45-S-T:3
+ngx_http_file_cache_open|27-S-T:4
+ngx_http_parse_status_line|2-S-T:14
+ngx_http_parse_status_line|55-S-T:5
+ngx_http_parse_status_line|62-S-T:3
+ngx_http_fastcgi_process_record|2-S-T:11
+ngx_http_fastcgi_process_record|8-S-T:4
+ngx_http_grpc_parse_frame|2-S-T:12
+ngx_http_grpc_parse_rst_stream|11-S-T:5
+ngx_http_grpc_parse_goaway|15-S-T:10
+ngx_http_grpc_parse_window_update|11-S-T:5
+ngx_http_grpc_parse_settings|26-S-T:8
+ngx_http_grpc_parse_header|25-S-T:10
+ngx_http_grpc_parse_fragment|5-S-T:15
+ngx_mail_auth_http_process_headers|82-S-T:3
+ngx_mail_auth_http_parse_header_line|2-S-T:8
+ngx_mail_auth_http_parse_header_line|3-S-T:3
+ngx_mail_auth_http_parse_header_line|29-S-T:4
+ngx_mail_auth_http_parse_header_line|35-S-T:4
+ngx_mail_auth_http_parse_header_line|40-S-T:4
+ngx_mail_proxy_init|8-S-T:3
+ngx_mail_proxy_pop3_handler|8-S-T:4
+ngx_mail_proxy_imap_handler|8-S-T:5
+ngx_mail_proxy_smtp_handler|8-S-T:10
+ngx_mail_proxy_read_response|14-S-T:3
+ngx_mail_proxy_read_response|20-S-T:5
+ngx_mail_proxy_read_response|49-S-T:10
+ngx_http_upstream_init_ip_hash_peer|4-S-T:3
+ngx_http_stub_status_variable|2-S-T:5
+ngx_mail_pop3_parse_command|2-S-T:5
+ngx_mail_pop3_parse_command|73-S-T:4
+ngx_mail_pop3_parse_command|84-S-T:4
+ngx_mail_pop3_parse_command|92-S-T:4
+ngx_mail_pop3_parse_command|99-S-T:4
+ngx_mail_pop3_auth_state|10-S-T:9
+ngx_mail_pop3_auth_state|11-S-T:8
+ngx_mail_pop3_auth_state|21-S-T:5
+ngx_mail_pop3_auth_state|35-S-T:5
+ngx_mail_pop3_auth|4-S-T:6
+ngx_mail_auth_http_ignore_status_line|2-S-T:8
+ngx_mail_auth_http_ignore_status_line|18-S-T:3
+ngx_mail_auth_http_process_headers|15-S-T:3
+ngx_mail_auth_http_process_headers|21-S-T:3
+ngx_stream_variable_binary_remote_addr|0-S-T:3
+ngx_mail_imap_parse_command|2-S-T:13
+ngx_mail_imap_parse_command|3-S-T:4
+ngx_mail_imap_parse_command|8-S-T:4
+ngx_mail_imap_parse_command|17-S-T:7
+ngx_mail_imap_parse_command|127-S-T:4
+ngx_mail_imap_parse_command|138-S-T:6
+ngx_mail_imap_parse_command|155-S-T:6
+ngx_mail_imap_parse_command|161-S-T:5
+ngx_mail_imap_parse_command|170-S-T:3
+ngx_mail_imap_parse_command|185-S-T:3
+ngx_mail_imap_parse_command|198-S-T:4
+ngx_mail_imap_auth_state|22-S-T:7
+ngx_mail_imap_auth_state|23-S-T:7
+ngx_mail_imap_auth_state|41-S-T:4
+ngx_mail_imap_authenticate|2-S-T:6
+ngx_mail_smtp_parse_command|2-S-T:7
+ngx_mail_smtp_parse_command|113-S-T:4
+ngx_mail_smtp_parse_command|125-S-T:4
+ngx_mail_smtp_parse_command|133-S-T:4
+ngx_mail_smtp_parse_command|136-S-T:4
+ngx_mail_smtp_auth_state|10-S-T:7
+ngx_mail_smtp_auth_state|11-S-T:10
+ngx_mail_smtp_auth_state|30-S-T:5
+ngx_mail_smtp_auth|4-S-T:6
+ngx_stream_init_phase_handlers|8-S-T:3
+ngx_stream_log_variable_compile|2-S-T:3
+ngx_stream_proxy_bind|15-S-T:3
+ngx_proxy_protocol_write|4-S-T:3
+ngx_stream_access_handler|0-S-T:4
+ngx_stream_geo_range_variable|1-S-T:3
+ngx_stream_geo_cidr_variable|2-S-T:3
+ngx_stream_geo_include|5-S-T:3
+ngx_get_options|6-S-T:12
+ngx_daemon|0-S-T:3
+ngx_signal_worker_processes|0-S-T:4
+ngx_spawn_process|45-S-T:3
+ngx_spawn_process|55-S-T:6
+ngx_channel_handler|13-S-T:6
+ngx_set_inherited_sockets|10-S-T:4
+ngx_cpuinfo|3-S-T:4
+ngx_linux_sendfile|4-S-T:3
+ngx_inet_ntop|0-S-T:3

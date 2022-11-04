@@ -1,0 +1,129 @@
+totalBrCount: 5285
+totalBrEdgeCount: 11095
+configBrCount: 71
+configBrEdgeCount: 142
+Global-Heap: H
+wHeapInitEdgeCount: 142
+non-det-cmp-configBrEdgeCount: 16
+indCallEdgeBrEdgeCount: 0
+Config Variable -> Cond Branch distribution:
+brCount:configVar 1:6
+brCount:configVar 2:8
+brCount:configVar 3:3
+brCount:configVar 4:2
+brCount:configVar 5:2
+brCount:configVar 8:1
+brCount:configVar 14:1
+Switch-Case count
+server_main_setup|2-S-T:11
+server_main_setup|220-S-T:3
+server_main_setup|236-S-T:3
+server_main_setup|249-S-T:2
+server_main_setup|278-S-T:3
+config_free_config|8-S-T:2
+fdevent_fdnode_event_unsetter_retry|1-S-T:3
+buffer_append_string_c_escaped|4-S-T:4
+buffer_append_string_c_escaped|17-S-T:4
+connection_get_state|0-S-T:12
+connection_state_machine_loop|3-S-T:11
+connection_state_machine_loop|13-S-T:5
+connection_set_fdevent_interest|5-S-T:6
+fdevent_fdnode_event_setter_retry|1-S-T:3
+http_response_handler|4-S-T:5
+h2_send_headers|9-S-T:7
+connection_handle_write_state|12-S-T:6
+connection_handle_write|2-S-T:5
+chunkqueue_peek_data|2-S-T:3
+lshpack_enc_huff_encode|11-S-T:8
+http_response_physical_path_check|2-S-T:5
+buffer_append_string_encoded|0-S-T:5
+buffer_append_string_encoded|8-S-T:5
+buffer_append_string_encoded|20-S-T:5
+sock_addr_nameinfo_append_buffer|0-S-T:3
+sock_addr_get_port|0-S-T:3
+sock_addr_inet_ntop|0-S-T:4
+config_merge_config_cpv|0-S-T:35
+http_response_write_prepare|1-S-T:5
+http_response_write_prepare|13-S-T:5
+http_response_write_prepare|24-S-T:3
+chunkqueue_steal|11-S-T:3
+h2_parse_frames|32-S-T:9
+config_check_cond_nocache|4-S-T:5
+config_check_cond_nocache|12-S-T:5
+config_check_cond_nocache|21-S-T:3
+config_cond_result_trace|0-S-T:5
+config_check_cond_nocache_eval|0-S-T:9
+config_check_cond_nocache_eval|16-S-T:5
+sock_addr_is_addr_eq_bits|0-S-T:3
+sock_addr_is_addr_eq|2-S-T:4
+h2_parse_frame_settings|2-S-T:7
+li_base64_dec|18-S-T:5
+sock_addr_inet_pton|0-S-T:3
+http_request_parse_header_other|5-S-T:22
+http_request_parse_single_header|0-S-T:9
+http_request_parse_duplicate|3-S-T:6
+http_request_parse_header|11-S-T:4
+http_request_parse_header|28-S-T:8
+config_reset_config_bytes_sec|6-S-T:2
+network_server_init|69-S-T:3
+sock_addr_stringify_append_buffer|0-S-T:4
+sock_addr_from_str_hints|0-S-T:5
+sigaction_handler|2-S-T:7
+config_log_error_open|4-S-T:3
+fdevent_init|11-S-T:3
+connection_handle_read_post_state|8-S-T:3
+sock_addr_cache_inet_ntop_copy_buffer|0-S-T:3
+sock_addr_cache_inet_ntop_copy_buffer|18-S-T:3
+connection_read_cq_err|0-S-T:4
+sock_addr_is_port_eq|2-S-T:4
+sock_addr_is_addr_wildcard|0-S-T:3
+stat_cache_handle_fdevent_fn|1-S-T:5
+stat_cache_handle_fdevent_fn|11-S-T:4
+network_server_handle_fdevent|17-S-T:5
+fdevent_accept_listenfd|7-S-T:4
+network_write_init|10-S-T:4
+yy_destructor|0-S-T:34
+yy_reduce|6-S-T:45
+network_merge_config_cpv|0-S-T:9
+config_plugin_values_init_block|4-S-T:14
+config_plugin_values_init_block|8-S-T:5
+config_plugin_values_init_block|27-S-T:3
+config_plugin_values_init_block|40-S-T:3
+network_write_chunkqueue_sendfile|2-S-T:3
+network_write_chunkqueue_writev|2-S-T:3
+network_write_error|0-S-T:5
+network_write_file_chunk_sendfile|10-S-T:11
+config_print_by_type|0-S-T:5
+config_insert_srvconf|5-S-T:34
+config_insert|10-S-T:35
+config_burl_normalize_cond|4-S-T:5
+config_tokenizer|7-S-T:19
+config_tokenizer|43-S-T:6
+li_base64_enc|12-S-T:4
+buffer_append_string_encoded_json|6-S-T:8
+buffer_append_string_encoded_json|21-S-T:8
+yy_reduce|143-S-T:5
+configparser_merge_data|8-S-T:4
+configparser_parse_condition|0-S-T:5
+config_parse_file|11-S-T:5
+unixsocket_is_dup|6-S-T:2
+parse_binpath|2-S-T:3
+chunkqueue_append_splice_pipe_tempfile|12-S-T:3
+chunkqueue_write_chunk|0-S-T:3
+gw_free|6-S-T:2
+gw_set_defaults_backend|14-S-T:27
+http_response_process_headers|50-S-T:8
+http_response_backend_done|0-S-T:4
+gw_recv_response|6-S-T:4
+gw_write_request|0-S-T:6
+gw_write_request|21-S-T:4
+gw_write_request|45-S-T:4
+gw_host_get|5-S-T:5
+gw_restart_dead_proc|0-S-T:6
+http_response_read|51-S-T:3
+gw_handle_trigger|8-S-T:3
+gw_handle_waitpid_cb|9-S-T:3
+http_cgi_headers|43-S-T:3
+sock_addr_set_port|0-S-T:3
+sock_addr_assign|0-S-T:4
+sock_addr_from_str_numeric|4-S-T:3

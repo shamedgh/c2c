@@ -1,0 +1,4 @@
+config
+*.bc
+*.o
+*.ll
