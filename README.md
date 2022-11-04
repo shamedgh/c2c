@@ -64,3 +64,14 @@ cat syscall.diffs (shows the name of extra syscalls filtered compared to tempora
 The bitcode for all applications have been provided in the bitcodes folder
 and the source code for the LLVM pass and the python scripts are available in
 the `src` folder.
+
+## Academic Publication
+Please use the following citation for C2C.
+```
+@inproceedings{c2c,
+  title={{C2C}: Fine-grained Configuration-driven System Call Filtering},
+  author={Ghavamnia, Seyedhamed and Palit, Tapti and Polychronakis, Michalis},
+  year={2022},
+  booktitle={Proceedings of the 29th ACM Conference on Computer and Communications Security (CCS)},
+}
+```
